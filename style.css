@@ -1,0 +1,26 @@
+html{
+    scroll-behavior:smooth;
+}
+.flex-container {
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-end;
+}
+
+img{
+    height: 200px;
+    width: 300px;
+}
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    position: sticky;
+    top: 0px;
+    background-color:rgba(253, 0, 148, 0.719);
+}
+
+section {
+    background-color: #dbd2f3;
+    height: 100vh;
+}
